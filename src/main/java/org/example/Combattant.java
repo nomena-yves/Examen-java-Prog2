@@ -10,6 +10,7 @@ public class Combattant {
     protected String nomCombattant;
     protected int poids;
    protected List<String> titres;
+   protected char sexe;
 
     public Combattant(String id, String nom, String prenom, String nomCombattant, int poids, List<String> titres) {
         this.id = id;
