@@ -10,7 +10,7 @@ public class Combattant {
     protected int poids;
    protected List<String> titres;
 
-    public Combattant(String id, String nom, String prenom, String nomCombattant, int poids, List<String> titres) {
+    public Combattant() {
         this.id = id;
         this.nom = nom;
         this.prenom = prenom;
