@@ -9,6 +9,6 @@ public abstract class MatchLigue {
     Combattant combattant1;
     Combattant combattant2;
 
-    abstract boolean gagnerLeMatch(int pointA, int pointB,boolean gagner);
+    abstract boolean gagnerLeMatch(int pointA, int pointB,boolean gagner,String titre);
 
 }
