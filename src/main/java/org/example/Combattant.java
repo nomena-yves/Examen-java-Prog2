@@ -2,13 +2,13 @@ package org.example;
 
 import java.util.List;
 
-public abstract class Combattant {
-    private String id;
-    private String nom;
-    private String prenom;
-    private String nomCombattant;
-    private int poids;
-    private List<String> titres;
+public class Combattant {
+    protected String id;
+    protected String nom;
+    protected String prenom;
+    protected String nomCombattant;
+    protected int poids;
+   protected List<String> titres;
 
     public Combattant(String id, String nom, String prenom, String nomCombattant, int poids, List<String> titres) {
         this.id = id;
@@ -43,5 +43,4 @@ public abstract class Combattant {
         return titres;
     }
 
-    abstract List<String> gagnerUnTitre(boolean victoiore, String titre);
 }
